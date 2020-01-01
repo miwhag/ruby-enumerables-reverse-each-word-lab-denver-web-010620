@@ -4,6 +4,6 @@ split_array = sentence1.split(" ")
 split_array.collect do |reversed_words| 
  new_array << reversed_words.reverse
 end 
-return new_array
+return new_array.join(' ')
 end
 
